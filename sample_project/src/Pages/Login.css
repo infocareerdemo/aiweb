@@ -1,0 +1,142 @@
+/* Main container styles */
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  /* Login box styles */
+  .login-container {
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  .login-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Input field styles */
+  .input-group {
+    margin-bottom: 15px;
+    text-align: left;
+    
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #010000d9;
+    font-weight: bold;
+  }
+  
+  .input-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .input-group input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Button styles */
+  .login-btn {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .login-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 400px) {
+    .login-container {
+      width: 90%;
+    }
+  }
+
+/* login.css */
+
+/* Container for the input and link */
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .input-group-password {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-group-password input {
+    flex: 1;
+  }
+  
+  .forgot-password-link {
+    margin-left: 175px;
+  }
+  
+  .forgot-password-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .forgot-password-link a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style for other elements */
+  .register-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .register-link a:hover {
+    text-decoration: underline;
+  }
+  
+
+
+.header_whole_container {
+    padding: 20px;
+    height: 20px;
+    border-bottom: 1px solid #dcdcdc;
+    z-index: 1010 !important;
+    display: flex;
+}
+
+.page_container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.sidebar_container {
+    padding: 5px;
+}
+
+.sidebar_container text {
+    display: block;
+    padding: 10px;
+}
+
+.ant-drawer {
+    margin-top: 61px;
+    outline: none !important;
+}

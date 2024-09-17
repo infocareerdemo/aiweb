@@ -1,0 +1,30 @@
+.popover_text_container {
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    /* cursor: pointer; */
+}
+
+.popover_text_container text {
+    cursor: pointer;
+}
+
+.sidebar_content_container text {
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.sidebar_content_container {
+    cursor: pointer;
+}
+
+.sidebar_container text {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.sidebar_content_container {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
